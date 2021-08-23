@@ -1,5 +1,5 @@
 package gollo
 
-func SayHello() string {
-	return "Hello"
+func SayHello(nama string) string {
+	return "Hello " + nama
 }
